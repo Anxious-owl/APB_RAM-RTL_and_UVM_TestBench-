@@ -39,21 +39,21 @@ A complete SystemVerilog UVM verification environment for an APB (AMBA 3) RAM sl
   
 * apb\_tb.sv - contains:
 
-&nbsp;	- transaction class(sequence item with constraints)
+&nbsp;	     - transaction class(sequence item with constraints)
 
-&nbsp;	- sequences
+&nbsp;	    - sequences
 
-&nbsp;		write\_data, write\_err, 	read\_data, read\_err, reset\_dut, writeb\_readb, write\_read
+&nbsp;		        write\_data, write\_err, 	read\_data, read\_err, reset\_dut, writeb\_readb, write\_read
 
-&nbsp;	- driver
+&nbsp;	    - driver
 
-&nbsp;	- monitor (also contains covergroups and coverpoints)
+&nbsp;	    - monitor (also contains covergroups and coverpoints)
 
-&nbsp;	- sequencer
+&nbsp;	    - sequencer
 
-&nbsp;	- agent, env, scoreboard
+&nbsp;	    - agent, env, scoreboard
 
-&nbsp;	- Test
+&nbsp;	    - Test
 
 
 
