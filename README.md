@@ -33,39 +33,21 @@ A complete SystemVerilog UVM verification environment for an APB (AMBA 3) RAM sl
 
 #### Files Description:
 
-
-
-* apb\_top.sv – top with APB RAM slave(RTL) and IF
-  
-* apb\_tb.sv - contains:
-
-&nbsp;	     - transaction class(sequence item with constraints)
-
-&nbsp;	    - sequences
-
-&nbsp;		        write\_data, write\_err, 	read\_data, read\_err, reset\_dut, writeb\_readb, write\_read
-
-&nbsp;	    - driver
-
-&nbsp;	    - monitor (also contains covergroups and coverpoints)
-
-&nbsp;	    - sequencer
-
-&nbsp;	    - agent, env, scoreboard
-
-&nbsp;	    - Test
-
-
-
-* apb\_assertions.sv – Documented assertions that is applied using bind keyword
-  
+* apb_top.sv – top with APB RAM slave (RTL) and IF
+* apb_tb.sv – contains:
+  - transaction class (sequence item with constraints)
+  - sequences:
+    - write_data, write_err, read_data, read_err, reset_dut, writeb_readb, write_read
+  - driver
+  - monitor (also contains covergroups and coverpoints)
+  - sequencer
+  - agent, env, scoreboard
+  - test
+* apb_assertions.sv – Documented assertions that are applied using bind keyword
 * output/
-
-&nbsp;	- Functional Coverage report (coverage\_report.pdf)
-
-&nbsp;	- UVM output (Tb\_output.pdf)
-
-&nbsp;	- Example Waveform (waveform.png)
+  - Functional Coverage report (coverage_report.pdf)
+  - UVM output (Tb_output.pdf)
+  - Example Waveform (waveform.png)
 
 
 
